@@ -1,0 +1,23 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: motd
+  author: crouchr
+  description: MOTD for Linux.
+  company: "BlackRain"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.9
+  platforms:
+    - name: Slackware
+      versions:
+        - 14
+    - name: Debian
+      versions:
+        - wheezy
+        - jessie
+        - stretch
+        - buster
+        - bullseye
+  galaxy_tags:
+    - motd

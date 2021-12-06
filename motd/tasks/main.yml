@@ -1,0 +1,10 @@
+---
+# Configure MOTD
+
+  - name: Copy motd file with owner and permissions
+    ansible.builtin.copy:
+      src: motd_{{ ansible_distribution }}
+      dest: /etc/motd
+      owner: root
+      group: root
+      mode: '0644'
